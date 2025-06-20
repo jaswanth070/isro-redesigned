@@ -1,0 +1,49 @@
+{
+  "slides": [
+    {
+      "id": "welcome",
+      "title": "Welcome to",
+      "subtitle": "Indian Space Research Organization",
+      "description": "",
+      "backgroundImage": "",
+      "videoUrl": "videos/welcome.webm",
+      "hasReadMore": false
+    },
+    {
+      "id": "chandrayaan3",
+      "title": "Chandrayaan 3",
+      "subtitle": "",
+      "description": "Chandrayaan-3 is India's third lunar exploration mission and the second attempt to make a soft landing on the lunar surface after the Chandrayaan-2 mission.",
+      "backgroundImage": "",
+      "videoUrl": "videos/moon.mp4",
+      "hasReadMore": true
+    },
+    {
+      "id": "aditya",
+      "title": "Aditya-L1",
+      "subtitle": "",
+      "description": "Aditya-L1 is India's first solar mission to study the Sun's corona and solar wind in detail from the L1 Lagrange point.",
+      "backgroundImage": "",
+      "videoUrl": "videos/moon.mp4",
+      "hasReadMore": true
+    },
+    {
+      "id": "mangalyaan",
+      "title": "Mangalyaan",
+      "subtitle": "",
+      "description": "Mangalyaan, also known as the Mars Orbiter Mission (MOM), was India's first interplanetary mission, successfully reaching Mars orbit on September 24, 2014",
+      "backgroundImage": "",
+      "videoUrl": "videos/mars.mp4",
+      "hasReadMore": true
+    },
+    {
+      "id": "navic",
+      "title": "NavIC",
+      "subtitle": "",
+      "description": "Navigation with Indian Constellation (NavIC) is India's regional satellite navigation system providing accurate positioning services.",
+      "backgroundImage": "",
+      "videoUrl": "videos/welcome.webm",
+      "hasReadMore": true
+    }
+  ]
+}

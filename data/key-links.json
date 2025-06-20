@@ -1,0 +1,32 @@
+{
+  "links": [
+    {
+      "id": "press-release",
+      "title": "Press Release",
+      "description": "Find out the latest press releases from ISRO",
+      "icon": "📰",
+      "href": "/press-releases"
+    },
+    {
+      "id": "careers",
+      "title": "Careers",
+      "description": "Join ISRO workforce. Technical or administrative openings available",
+      "icon": "💼",
+      "href": "/careers"
+    },
+    {
+      "id": "students",
+      "title": "Students",
+      "description": "ISRO empowers students for space tech awareness",
+      "icon": "🎓",
+      "href": "/students"
+    },
+    {
+      "id": "tenders",
+      "title": "Tenders",
+      "description": "Portal for ISRO tender notifications, regularly updated",
+      "icon": "📋",
+      "href": "/tenders"
+    }
+  ]
+}

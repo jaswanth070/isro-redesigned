@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "text": "Aditya-L1 solar observatory is successfully inserted into Halo-Orbit around Sun-Earth L1"
+    },
+    {
+      "id": 2,
+      "text": "PSLV-C58 successfully launches XPoSat mission for X-ray polarimetry studies"
+    },
+    {
+      "id": 3,
+      "text": "Chandrayaan-3 mission achieves successful soft landing on lunar south pole"
+    }
+  ]
+}

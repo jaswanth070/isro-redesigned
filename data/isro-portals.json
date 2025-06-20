@@ -1,0 +1,66 @@
+{
+  "portals": [
+    {
+      "id": "spark",
+      "name": "SPARK",
+      "description": "India's first virtual space tech museum. Explore all the achievements of ISRO and learn",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://spark.isro.gov.in"
+    },
+    {
+      "id": "isro-stem",
+      "name": "ISRO STEM",
+      "description": "Knowledge portal on Space Education, explore Space technology and its applications",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://stem.isro.gov.in"
+    },
+    {
+      "id": "i-grasp",
+      "name": "I-GRASP",
+      "description": "ISRO Grant is Aid for Space Research. The portal invites proposals from academia",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://igrasp.isro.gov.in"
+    },
+    {
+      "id": "vedas",
+      "name": "VEDAS",
+      "description": "Visualisation of Earth Observation Data and Archival System portal",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://vedas.sac.gov.in"
+    },
+    {
+      "id": "bhuvan",
+      "name": "BHUVAN",
+      "description": "Indian geoportal of space research organisation for Visualisation portal",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://bhuvan.nrsc.gov.in"
+    },
+    {
+      "id": "mosdac",
+      "name": "MOSDAC",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre portal",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://mosdac.gov.in"
+    },
+    {
+      "id": "issdc",
+      "name": "ISSDC",
+      "description": "ISSDC is the main data center for Indian Space Science Mission payload archives",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://issdc.gov.in"
+    },
+    {
+      "id": "bhoonidhi",
+      "name": "BHOONIDHI",
+      "description": "Bhoonidhi enables access to our extensive archive of Remote Sensing data from satellites",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "href": "https://bhoonidhi.nrsc.gov.in"
+    },
+    {
+      "id": "ndem",
+      "name": "NDEM",
+      "description": "National Database for Emergency Management NDEM is a unique Geo-portal",
+      "logo": "/placeholder.svg?height=40&width=40"
+    }
+  ]
+}

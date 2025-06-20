@@ -1,0 +1,32 @@
+{
+  "updates": [
+    {
+      "id": 1,
+      "title": "PSLV-C58/XPoSat Mission",
+      "description": "PSLV-C58 launched XPoSat on Jan 01, 2024, enabling India for 3-years duration X-ray Polarimetry studies",
+      "image": "/placeholder.svg?height=400&width=300",
+      "hasReadMore": true
+    },
+    {
+      "id": 2,
+      "title": "Aditya-L1 Mission",
+      "description": "India's first solar mission to study the Sun and its corona",
+      "image": "/placeholder.svg?height=400&width=300",
+      "hasReadMore": false
+    },
+    {
+      "id": 3,
+      "title": "Gaganyaan Mission",
+      "description": "India's first crewed spaceflight mission",
+      "image": "/placeholder.svg?height=400&width=300",
+      "hasReadMore": false
+    },
+    {
+      "id": 4,
+      "title": "Halo Orbit Insertion",
+      "description": "Successful insertion into halo orbit around L1 point",
+      "image": "/placeholder.svg?height=400&width=300",
+      "hasReadMore": false
+    }
+  ]
+}

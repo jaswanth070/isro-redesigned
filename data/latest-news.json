@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Instrument on Chandrayaan-3 lander started serving as a location marker near south pole",
+      "readTime": "4 MIN Read",
+      "image": "images/vikram_lander.webp?height=300&width=400"
+    },
+    {
+      "id": 2,
+      "title": "Halo-Orbit Insertion of Aditya-L1 Successfully Accomplished",
+      "readTime": "3 MIN Read",
+      "image": "images/aditya_l1.webp?height=300&width=400"
+    },
+    {
+      "id": 3,
+      "title": "Flight Demonstration of Si-Gr anode based High Energy Density Li-ion Cells",
+      "readTime": "5 MIN Read",
+      "image": "images/battery.webp?height=300&width=400"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "centres": [
+    {
+      "id": "headquarters",
+      "name": "Headquarters",
+      "fullName": "Department of Space and ISRO HQ",
+      "location": "Bangalore",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "hsfc",
+      "name": "HSFC",
+      "fullName": "Human Space Flight Centre",
+      "location": "Bangalore",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "iirs",
+      "name": "IIRS",
+      "fullName": "Indian Institute of Remote Sensing",
+      "location": "Dehradun",
+      "state": "Uttarakhand",
+      "coordinates": [78.0322, 30.3165]
+    },
+    {
+      "id": "iprc",
+      "name": "IPRC",
+      "fullName": "ISRO Propulsion Complex",
+      "location": "Mahendragiri",
+      "state": "Tamil Nadu",
+      "coordinates": [77.2245, 8.4606]
+    },
+    {
+      "id": "istrac",
+      "name": "ISTRAC",
+      "fullName": "ISRO Telemetry, Tracking & Command Network",
+      "location": "Bangalore",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "leos",
+      "name": "LEOS",
+      "fullName": "Laboratory for Electro-Optics Systems",
+      "location": "Bangalore",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    }
+  ]
+}
