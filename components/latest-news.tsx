@@ -29,13 +29,13 @@ export default function LatestNews() {
             <h2 className="heading-lg text-white mb-4">Latest News</h2>
             <p className="body-md text-gray-400">Stay up to date with the latest from India's space sector</p>
           </div>
-          <Button
+          {/* <Button
             variant="outline"
             className="bg-gray-800 border-gray-700 text-white hover:bg-gray-700 hover:text-orange-400 ml-8"
           >
             All News
             <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          </Button> */}
         </div>
 
         <div className="relative">

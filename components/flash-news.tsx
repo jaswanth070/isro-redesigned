@@ -28,7 +28,10 @@ export default function FlashNews() {
                     index === currentNews ? "translate-y-0" : "translate-y-full"
                   }`}
                 >
+                  <a href={item.href} target="_blank">
+
                   <p className="text-white text-center max-w-4xl body-md">{item.text}</p>
+                  </a>
                 </div>
               ))}
             </div>

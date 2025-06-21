@@ -1,18 +1,10 @@
 {
-  "centres": [
-    {
-      "id": "headquarters",
-      "name": "Headquarters",
-      "fullName": "Department of Space and ISRO HQ",
-      "location": "Bangalore",
-      "state": "Karnataka",
-      "coordinates": [77.5946, 12.9716]
-    },
+  "isroCentres": [
     {
       "id": "hsfc",
       "name": "HSFC",
       "fullName": "Human Space Flight Centre",
-      "location": "Bangalore",
+      "location": "Bengaluru",
       "state": "Karnataka",
       "coordinates": [77.5946, 12.9716]
     },
@@ -20,9 +12,17 @@
       "id": "iirs",
       "name": "IIRS",
       "fullName": "Indian Institute of Remote Sensing",
-      "location": "Dehradun",
+      "location": "DehraDun",
       "state": "Uttarakhand",
       "coordinates": [78.0322, 30.3165]
+    },
+    {
+      "id": "iisu",
+      "name": "IISU",
+      "fullName": "ISRO Inertial Systems Unit",
+      "location": "Thiruvananthapuram",
+      "state": "Kerala",
+      "coordinates": [76.9366, 8.5241]
     },
     {
       "id": "iprc",
@@ -30,13 +30,13 @@
       "fullName": "ISRO Propulsion Complex",
       "location": "Mahendragiri",
       "state": "Tamil Nadu",
-      "coordinates": [77.2245, 8.4606]
+      "coordinates": [77.5021, 8.4304]
     },
     {
       "id": "istrac",
       "name": "ISTRAC",
-      "fullName": "ISRO Telemetry, Tracking & Command Network",
-      "location": "Bangalore",
+      "fullName": "ISRO Telemetry, Tracking and Command Network",
+      "location": "Bengaluru",
       "state": "Karnataka",
       "coordinates": [77.5946, 12.9716]
     },
@@ -44,7 +44,125 @@
       "id": "leos",
       "name": "LEOS",
       "fullName": "Laboratory for Electro-Optics Systems",
-      "location": "Bangalore",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "lpsc",
+      "name": "LPSC",
+      "fullName": "Liquid Propulsion Systems Centre",
+      "location": "Thiruvanthapuram",
+      "state": "Kerala",
+      "coordinates": [76.9366, 8.5241]
+    },
+    {
+      "id": "mcf",
+      "name": "MCF",
+      "fullName": "Master Control Facility",
+      "location": "Hassan",
+      "state": "Karnataka",
+      "coordinates": [76.1026, 13.0078]
+    },
+    {
+      "id": "nrsc",
+      "name": "NRSC",
+      "fullName": "National Remote Sensing Centre",
+      "location": "Hyderabad",
+      "state": "Telangana",
+      "coordinates": [78.4867, 17.385]
+    },
+    {
+      "id": "sdsc",
+      "name": "SDSC",
+      "fullName": "Satish Dhawan Space Centre (SHAR)",
+      "location": "Nellore",
+      "state": "Andhra Pradesh",
+      "coordinates": [79.971, 14.4426]
+    },
+    {
+      "id": "sac",
+      "name": "SAC",
+      "fullName": "Space Applications Centre",
+      "location": "Ahmedabad",
+      "state": "Gujarat",
+      "coordinates": [72.5714, 23.0225]
+    },
+    {
+      "id": "ursc",
+      "name": "URSC",
+      "fullName": "U R Rao Satellite Centre",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "vssc",
+      "name": "VSSC",
+      "fullName": "Vikram Sarabhai Space Centre",
+      "location": "Thiruvanthapuram",
+      "state": "Kerala",
+      "coordinates": [76.9366, 8.5241]
+    }
+  ],
+  "inSpaceCentres": [
+    {
+      "id": "inspace-hq",
+      "name": "IN-SPACe HQ",
+      "fullName": "Indian National Space Promotion and Authorisation Centre",
+      "location": "Ahmedabad",
+      "state": "Gujarat",
+      "coordinates": [72.5714, 23.0225]
+    },
+    {
+      "id": "inspace-bengaluru",
+      "name": "IN-SPACe Regional Office",
+      "fullName": "IN-SPACe Regional Office Bengaluru",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    }
+  ],
+  "cpses": [
+    {
+      "id": "antrix",
+      "name": "Antrix Corporation",
+      "fullName": "Antrix Corporation Limited",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "nsil",
+      "name": "NSIL",
+      "fullName": "NewSpace India Limited",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    }
+  ],
+  "autonomous": [
+    {
+      "id": "prl",
+      "name": "PRL",
+      "fullName": "Physical Research Laboratory",
+      "location": "Ahmedabad",
+      "state": "Gujarat",
+      "coordinates": [72.5714, 23.0225]
+    },
+    {
+      "id": "rri",
+      "name": "RRI",
+      "fullName": "Raman Research Institute",
+      "location": "Bengaluru",
+      "state": "Karnataka",
+      "coordinates": [77.5946, 12.9716]
+    },
+    {
+      "id": "semi",
+      "name": "SEMI",
+      "fullName": "Space Electronics Manufacturing Institute",
+      "location": "Bengaluru",
       "state": "Karnataka",
       "coordinates": [77.5946, 12.9716]
     }

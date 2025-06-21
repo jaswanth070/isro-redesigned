@@ -10,6 +10,7 @@ export default function RecentUpdates() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const { updates } = recentUpdatesData
   const itemsPerPage = 4
+  const totalPages = Math.ceil(updates.length / itemsPerPage)
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + itemsPerPage >= updates.length ? 0 : prev + itemsPerPage))
@@ -21,7 +22,12 @@ export default function RecentUpdates() {
     )
   }
 
+  const goToPage = (pageIndex: number) => {
+    setCurrentIndex(pageIndex * itemsPerPage)
+  }
+
   const visibleUpdates = updates.slice(currentIndex, currentIndex + itemsPerPage)
+  const currentPage = Math.floor(currentIndex / itemsPerPage)
 
   return (
     <section className="bg-[#120f12] py-16">
@@ -58,10 +64,12 @@ export default function RecentUpdates() {
                       <h3 className="font-semibold text-lg mb-3 text-orange-400">{update.title}</h3>
                       <p className="body-sm text-gray-200 mb-4 leading-relaxed">{update.description}</p>
                       {update.hasReadMore && (
-                        <Button className="glass-button text-white px-4 py-2 rounded-full flex items-center space-x-2 mx-auto">
-                          <span>Read more</span>
-                          <ArrowRight className="h-4 w-4" />
-                        </Button>
+                        <a href={update.link}>
+                          <Button className="glass-button text-white px-4 py-2 rounded-full flex items-center space-x-2 mx-auto">
+                            <span>Read more</span>
+                            <ArrowRight className="h-4 w-4" />
+                          </Button>
+                        </a>
                       )}
                     </div>
                   </div>
@@ -76,7 +84,8 @@ export default function RecentUpdates() {
               variant="outline"
               size="sm"
               onClick={prevSlide}
-              className="bg-gray-800 border-gray-700 text-white hover:bg-gray-700"
+              disabled={currentIndex === 0}
+              className="bg-gray-800 border-gray-700 text-white hover:bg-gray-700 disabled:opacity-50"
             >
               <ChevronLeft className="h-4 w-4" />
             </Button>
@@ -84,10 +93,32 @@ export default function RecentUpdates() {
               variant="outline"
               size="sm"
               onClick={nextSlide}
-              className="bg-gray-800 border-gray-700 text-white hover:bg-gray-700"
+              disabled={currentIndex + itemsPerPage >= updates.length}
+              className="bg-gray-800 border-gray-700 text-white hover:bg-gray-700 disabled:opacity-50"
             >
               <ChevronRight className="h-4 w-4" />
             </Button>
+          </div>
+
+          {/* Navigation Dots */}
+          <div className="flex justify-center space-x-2 mt-6">
+            {Array.from({ length: totalPages }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToPage(index)}
+                className={`w-3 h-3 rounded-full transition-colors ${
+                  currentPage === index ? "bg-orange-400" : "bg-gray-600 hover:bg-gray-500"
+                }`}
+                aria-label={`Go to page ${index + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* Page indicator */}
+          <div className="text-center mt-4">
+            <span className="text-gray-400 text-sm">
+              Page {currentPage + 1} of {totalPages} ({updates.length} total updates)
+            </span>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="images/isro_logo.png?height=40&width=40"
                 alt="ISRO Logo"
                 width={40}
                 height={40}
@@ -43,19 +43,19 @@ export default function Footer() {
 
             {/* Social Media */}
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="https://www.facebook.com/ISRO/" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="https://x.com/isro" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="https://www.youtube.com/channel/UCw5hEVOTfz_AfzsNFWyNlNg" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="https://www.instagram.com/isro.dos/" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <a href="https://in.linkedin.com/company/officialisro" className="text-gray-400 hover:text-orange-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -105,9 +105,30 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400 text-sm">© 2024 Indian Space Research Organisation. All rights reserved.</p>
+        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm space-y-1">
+          <p>© 2024 Indian Space Research Organisation. All rights reserved.</p>
+          <p>
+            UI designed by{" "}
+            <a
+              href="https://www.instagram.com/hemz.designs/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-400 hover:underline"
+            >
+              Hemanth Kotla
+            </a>{" "}
+            and developed by{" "}
+            <a
+              href="https://www.jaswanthmadiya.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-400 hover:underline"
+            >
+              Jaswanth Madiya
+            </a>
+          </p>
         </div>
+
       </div>
     </footer>
   )

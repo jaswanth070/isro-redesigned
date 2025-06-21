@@ -90,7 +90,9 @@ export default function HeroCarousel() {
                     <p className="body-lg mb-8 text-gray-200 max-w-xl leading-relaxed">{slide.description}</p>
                     {slide.hasReadMore && (
                       <Button className="glass-button text-white px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-white/20">
+                        <a href={slide.link}>
                         <span>Read more</span>
+                        </a>
                         <ArrowRight className="h-4 w-4" />
                       </Button>
                     )}

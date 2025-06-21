@@ -2,31 +2,115 @@
   "updates": [
     {
       "id": 1,
-      "title": "PSLV-C58/XPoSat Mission",
-      "description": "PSLV-C58 launched XPoSat on Jan 01, 2024, enabling India for 3-years duration X-ray Polarimetry studies",
-      "image": "/placeholder.svg?height=400&width=300",
-      "hasReadMore": true
+      "title": "SSLV-D3/EOS-08 Mission",
+      "description": "SSLV-D3/EOS-08 launched on August 16, 2024.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/sslvd3_rec160824.png.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/Mission_SSLV_D3.html"
     },
     {
       "id": 2,
-      "title": "Aditya-L1 Mission",
-      "description": "India's first solar mission to study the Sun and its corona",
-      "image": "/placeholder.svg?height=400&width=300",
-      "hasReadMore": false
+      "title": "GSLV-F14/INSAT-3DS MISSION",
+      "description": "GSLV-F14/INSAT-3DS launched on February 17, 2024.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/gslvf14ind.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/GSLV-F14_INSAT-3DS_mission.html"
     },
     {
       "id": 3,
-      "title": "Gaganyaan Mission",
-      "description": "India's first crewed spaceflight mission",
-      "image": "/placeholder.svg?height=400&width=300",
-      "hasReadMore": false
+      "title": "PSLV-C58/XPoSat Mission",
+      "description": "PSLV-C58/XPoSat launched on January 01, 2024.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/pslvc58xposat.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/PSLV_C58_XPoSat_Mission.html"
     },
     {
       "id": 4,
+      "title": "Gaganyaan TV-D1 Mission",
+      "description": "Gaganyaan TV-D1 launched on October 21, 2023.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/GaganyaanTVD1/GaganyaanTVD1.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/Gaganyaan_TV-D1_Mission.html"
+    },
+    {
+      "id": 5,
+      "title": "PSLV-C57/Aditya-L1 Mission",
+      "description": "PSLV-C57/Aditya-L1 launched on September 02, 2023.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/PSLVC56/PSLVC56_PostImg.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/Aditya_L1.html"
+    },
+    {
+      "id": 6,
       "title": "Halo Orbit Insertion",
-      "description": "Successful insertion into halo orbit around L1 point",
-      "image": "/placeholder.svg?height=400&width=300",
-      "hasReadMore": false
+      "description": "Halo Orbit Insertion mission update available.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/haloorbitinsertionl1.jpg",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/halo-orbit-insertion-adtya-l1.html"
+    },
+    {
+      "id": 7,
+      "title": "INDIA INTERNATIONAL SCIENCE FESTIVAL 2023",
+      "description": "INDIA INTERNATIONAL SCIENCE FESTIVAL 2023 event update available.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/IISF_logo_rec.jpg",
+      "hasReadMore": true,
+      "link": "https://www.scienceindiafest.org/"
+    },
+    {
+      "id": 8,
+      "title": "Flight Demonstration of Si-Gr anode based High Energy Density Li-ion Cells",
+      "description": "Flight demonstration update on Si-Gr anode based Li-ion cells.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/siliconcellrec.jpg",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/FlightDemonstration_Si-Gr_anode.html"
+    },
+    {
+      "id": 9,
+      "title": "ISRO’s Fuel Cell flight tested in PSLV C58",
+      "description": "ISRO’s Fuel Cell successfully tested in PSLV C58.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/fuelcellrec.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/FuelCellFlightTestedPSLVC58.html"
+    },
+    {
+      "id": 10,
+      "title": "National Space Science  Symposium",
+      "description": "Held from 26 FEB to 01 MAR 2024 in GOA.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/nsss2024rec.jpg",
+      "hasReadMore": true,
+      "link": "https://nsss2024.unigoa.ac.in/"
+    },
+    {
+      "id": 11,
+      "title": "Azadi Ka Amrit Mahotsav",
+      "description": "Azadi Ka Amrit Mahotsav celebration update.",
+      "image": "https://www.isro.gov.in/media_isro/image/AzadiKaAmrit_large.png.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/azadi-ka-amrit-mahotsav.html"
+    },
+    {
+      "id": 12,
+      "title": "Chandrayaan-3 MahaQuiz",
+      "description": "Chandrayaan-3 MahaQuiz initiative.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Recent/mahaquiz1.jpg",
+      "hasReadMore": false,
+      "link": ""
+    },
+    {
+      "id": 13,
+      "title": "LVM3-M4 / Chandrayaan-3 Mission",
+      "description": "LVM3-M4 / Chandrayaan-3 launched on July 14, 2023.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/chandrayaan3_ind.jpg.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/Chandrayaan3_Details.html"
+    },
+    {
+      "id": 14,
+      "title": "G20",
+      "description": "India G20 Presidency update.",
+      "image": "https://www.isro.gov.in/media_isro/image/index/g20.png.webp",
+      "hasReadMore": true,
+      "link": "https://www.isro.gov.in/ISRO_EN/IndiaG20Presidency.html"
     }
   ]
 }

@@ -5,28 +5,28 @@
       "title": "Press Release",
       "description": "Find out the latest press releases from ISRO",
       "icon": "📰",
-      "href": "/press-releases"
+      "href": "https://www.isro.gov.in/ISRO_EN/Press.html"
     },
     {
       "id": "careers",
       "title": "Careers",
       "description": "Join ISRO workforce. Technical or administrative openings available",
       "icon": "💼",
-      "href": "/careers"
+      "href": "https://www.isro.gov.in/ISRO_EN/Careers.html"
     },
     {
       "id": "students",
       "title": "Students",
       "description": "ISRO empowers students for space tech awareness",
       "icon": "🎓",
-      "href": "/students"
+      "href": "https://www.isro.gov.in/ISRO_EN/Students.html"
     },
     {
       "id": "tenders",
       "title": "Tenders",
       "description": "Portal for ISRO tender notifications, regularly updated",
       "icon": "📋",
-      "href": "/tenders"
+      "href": "https://www.isro.gov.in/ISRO_EN/Tenders.html"
     }
   ]
 }

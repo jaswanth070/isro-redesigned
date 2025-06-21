@@ -1,0 +1,142 @@
+{
+  "navItems": [
+    {
+      "name": "Home",
+      "href": "https://www.isro.gov.in/.html",
+      "id": "home"
+    },
+    {
+      "name": "About",
+      "href": "#",
+      "id": "about",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Profile", "href": "https://www.isro.gov.in/profile.html" },
+        { "name": "Vision-Mission-Objectives", "href": "https://www.isro.gov.in/vision-mission-objectives.html" },
+        { "name": "Citizen charter", "href": "https://www.isro.gov.in/citizencharter.html" },
+        { "name": "Organisational structure", "href": "https://www.isro.gov.in/organisation.html" },
+        { "name": "DoS Centers/units/enterprises", "href": "https://www.isro.gov.in/isro_centre.html" },
+        { "name": "Secretary, DoS/ Chairman, ISRO", "href": "https://www.isro.gov.in/leadership.html" },
+        { "name": "Former Secretaries/Chairmen", "href": "https://www.isro.gov.in/formerchairman.html" },
+        { "name": "Space Commission", "href": "https://www.isro.gov.in/SpaceCommision.html" },
+        { "name": "Autonomous bodies", "href": "https://www.isro.gov.in/autonomous.html" },
+        { "name": "Genesis", "href": "https://www.isro.gov.in/genesis.html" },
+        { "name": "Timeline", "href": "https://www.isro.gov.in/Timeline.html" },
+        { "name": "Who's who", "href": "https://www.isro.gov.in/whoswho.html" },
+        { "name": "Contact us", "href": "https://www.isro.gov.in/contact.html" }
+      ]
+    },
+    {
+      "name": "Activities",
+      "href": "#",
+      "id": "activities",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Missions accomplished", "href": "https://www.isro.gov.in/Mission.html" },
+        { "name": "Upcoming Missions", "href": "https://www.isro.gov.in/FutureMissions.html" },
+        { "name": "Science", "href": "https://www.isro.gov.in/Science.html" },
+        { "name": "Launchers", "href": "https://www.isro.gov.in/Launchers.html" },
+        { "name": "Satellites", "href": "https://www.isro.gov.in/Satellites.html" },
+        { "name": "Space Applications", "href": "https://www.isro.gov.in/SpaceApplications.html" },
+        { "name": "Research & Development", "href": "https://www.isro.gov.in/researchdevelopment.html" },
+        { "name": "Gaganyaan", "href": "https://www.isro.gov.in/Gaganyaan.html" },
+        { "name": "Ground Segment activities", "href": "https://www.isro.gov.in/GroundSegmentActivities.html" },
+        { "name": "Promotion & Authorisation", "href": "https://www.isro.gov.in/IN-SPACe.html" },
+        { "name": "International co-operation", "href": "https://www.isro.gov.in/InternationalCoOperation.html" },
+        { "name": "Capacity building", "href": "https://www.isro.gov.in/CapacityBuilding.html" },
+        { "name": "Training", "href": "https://www.isro.gov.in/Training.html" },
+        { "name": "Outreach", "href": "https://www.isro.gov.in/Outreach.html" }
+      ]
+    },
+    {
+      "name": "Services",
+      "href": "#",
+      "id": "services",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Launch service", "href": "https://www.isro.gov.in/launchservices.html" },
+        { "name": "Satellite: system, bus, sub-system, testing", "href": "https://www.isro.gov.in/SatelliteSystemBusSubSystemTesting.html" },
+        { "name": "Mission support", "href": "https://www.isro.gov.in/missionsupport.html" },
+        { "name": "Ground systems support", "href": "https://www.isro.gov.in/GroundSystemSupport.html" },
+        { "name": "Satellite Communication & Lease of transponders", "href": "https://www.isro.gov.in/SatelliteCommunicationApplications.html" },
+        { "name": "Space based Earth observation: Bhuvan & Bhoonidhi", "href": "https://www.isro.gov.in/SpaceBasedEarthObservationServices.html" },
+        { "name": "Satellite Navigation services", "href": "https://www.isro.gov.in/SatelliteNavigationServices.html" },
+        { "name": "Meteorological & Oceanographic Satellite Data", "href": "https://www.isro.gov.in/MeteorologicalOceanographicApplications.html" },
+        { "name": "Disaster Management: National & International", "href": "https://www.isro.gov.in/DisasterManagementNationalInternational.html" },
+        { "name": "Aerial Services & Digital Mapping", "href": "https://www.isro.gov.in/AerialServicesDigitalMapping.html" },
+        {
+          "name": "North-East India region specific applications Services",
+          "href": "https://www.isro.gov.in/North-EastIndiaRegionSpecificApplications.html"
+        },
+        { "name": "VEDAS services", "href": "https://www.isro.gov.in/VedasServices.html" },
+        { "name": "Transfer Orbit Service", "href": "https://www.isro.gov.in/TransferOrbitService.html" },
+        { "name": "Satellite aided search & rescue", "href": "https://www.isro.gov.in/SatelliteAidedSearchAndRescue.html" }
+      ]
+    },
+    {
+      "name": "Programmes",
+      "href": "#",
+      "id": "programmes",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Academic courses", "href": "https://www.isro.gov.in/AcademicCourses.html" },
+        { "name": "Conference Grants", "href": "https://www.isro.gov.in/Conference_Grants.html" },
+        { "name": "Fellowships", "href": "https://www.isro.gov.in/Fellowships.html" },
+        { "name": "Space merchandise", "href": "https://www.isro.gov.in/Merchandise.html" },
+        { "name": "Space Tutor", "href": "https://www.isro.gov.in/spacetutor.html" },
+        { "name": "Space on wheels", "href": "https://www.isro.gov.in/SpaceOnWheels.html" },
+        { "name": "Student Satellite", "href": "https://www.isro.gov.in/Student_Program_Satellite.html" },
+        { "name": "Technology Transfer", "href": "https://www.isro.gov.in/TechnologyTransfer.html" },
+        { "name": "UNNATI", "href": "https://www.isro.gov.in/UNNATI.html" },
+        { "name": "YUVIKA", "href": "https://www.isro.gov.in/YUVIKA.html" }
+      ]
+    },
+    {
+      "name": "Resources",
+      "href": "#",
+      "id": "resources",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Atlases: River basin", "href": "https://www.isro.gov.in/River_Basin_Atlas.html" },
+        { "name": "Bhuvan", "href": "https://bhuvan.nrsc.gov.in/", "external": true },
+        { "name": "Database for Emergency Management", "href": "https://www.isro.gov.in/DBEM.html" },
+        { "name": "FEAST Tool", "href": "https://feast.vssc.gov.in/", "external": true },
+        { "name": "I-grasp", "href": "https://igrasp.isro.gov.in/", "external": true },
+        { "name": "Info for Climate & Environment studies", "href": "https://www.isro.gov.in/InfoClimateEnv.html" },
+        { "name": "Landslide Atlas of India", "href": "https://www.isro.gov.in/Landslide_Atlas_India.html" },
+        {
+          "name": "Meteorology & Oceanographic data",
+          "href": "https://www.mosdac.gov.in/live/index_one.php?url_name=india",
+          "external": true
+        },
+        { "name": "Mobile Apps", "href": "https://www.isro.gov.in/MobileApps.html" },
+        { "name": "Monthly Summary of DOS", "href": "https://www.isro.gov.in/MonthlySummary.html" },
+        { "name": "MOSDAC", "href": "https://www.isro.gov.in/MOSDAC.html" },
+        { "name": "NAVIC Time", "href": "https://www.sac.gov.in/Vyom/time_current", "external": true },
+        { "name": "Publications", "href": "https://www.isro.gov.in/publications.html" },
+        { "name": "School Bhuvan - NCERT", "href": "https://bhuvan-app1.nrsc.gov.in/mhrd_ncert/", "external": true },
+        { "name": "Science Data", "href": "https://www.isro.gov.in/Sciencedata.html" }
+      ]
+    },
+    {
+      "name": "Engage with US",
+      "href": "#",
+      "id": "engage",
+      "hasDropdown": true,
+      "dropdownItems": [
+        { "name": "Academia", "href": "https://www.isro.gov.in/academia.html" },
+        { "name": "Ask an expert", "href": "https://www.isro.gov.in/ISROAPP/login.jsp", "external": true },
+        { "name": "Educators", "href": "https://www.isro.gov.in/Educators.html" },
+        { "name": "Industry", "href": "https://www.isro.gov.in/Industry.html" },
+        { "name": "Internship & Projects", "href": "https://www.isro.gov.in/InternshipAndProjects.html" },
+        { "name": "Join ISRO", "href": "https://www.isro.gov.in/Careers.html" },
+        { "name": "Media", "href": "https://www.isro.gov.in/Press.html" },
+        { "name": "Researchers", "href": "https://www.isro.gov.in/Researchers_en.html" },
+        { "name": "Start-ups", "href": "https://www.isro.gov.in/Start_ups.html" },
+        { "name": "Students", "href": "https://www.isro.gov.in/Students.html" },
+        { "name": "Training", "href": "https://www.isro.gov.in/Training.html" },
+        { "name": "Visitors", "href": "https://www.isro.gov.in/Visitors.html" }
+      ]
+    }
+  ]
+}

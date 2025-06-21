@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "ISRO - Indian Space Research Organisation",
+  title: "Indian Space Research Organisation - ISRO",
   description:
     "Official website of Indian Space Research Organisation (ISRO), Department of Space, Government of India",
   keywords: "ISRO, Indian Space Research Organisation, Space, Satellites, Missions, Chandrayaan, Aditya, NavIC",
@@ -22,18 +22,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ISRO - Indian Space Research Organisation",
+    title: "Indian Space Research Organisation - ISRO",
     description:
       "Official website of Indian Space Research Organisation (ISRO), Department of Space, Government of India",
     creator: "@isro",
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "favicon/favicon.ico", sizes: "any" },
+      { url: "favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    apple: [{ url: "favicon/apple-touch-icon.png", sizes: "180x180" }],
     other: [{ rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#f97316" }],
   },
   manifest: "/site.webmanifest",
