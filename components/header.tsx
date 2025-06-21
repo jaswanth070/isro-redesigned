@@ -14,6 +14,7 @@ interface HeaderProps {
 export default function Header({ isHeroSection = false, activeSection = "home" }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string | null>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
   const { navItems } = navigationData
 
@@ -30,6 +31,15 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
 
   const toggleDropdown = (itemId: string) => {
     setActiveDropdown(activeDropdown === itemId ? null : itemId)
+  }
+
+  const toggleMobileDropdown = (itemId: string) => {
+    setMobileActiveDropdown(mobileActiveDropdown === itemId ? null : itemId)
+  }
+
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false)
+    setMobileActiveDropdown(null)
   }
 
   return (
@@ -50,8 +60,8 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
                 <Image
                   src="images/isro_logo.png?height=60&width=60"
                   alt="ISRO Logo"
-                  width={80}
-                  height={80}
+                  width={60}
+                  height={60}
                   className="rounded"
                 />
                 <div className="h-12 w-px bg-gray-600 hidden sm:block"></div>
@@ -122,8 +132,8 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
               <Image
                 src="images/emblem.png?height=40&width=40"
                 alt="Indian National Emblem"
-                width={60}
-                height={60}
+                width={40}
+                height={40}
                 className="rounded hidden sm:block"
               />
 
@@ -151,6 +161,7 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
                         className={`transition-colors duration-200 py-2 px-4 rounded flex-1 ${
                           activeSection === item.id ? "text-orange-400" : "text-gray-300 hover:text-orange-400"
                         }`}
+                        onClick={!item.hasDropdown ? closeMobileMenu : undefined}
                       >
                         {item.name}
                       </a>
@@ -158,19 +169,21 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
                         <Button
                           variant="ghost"
                           size="sm"
-                          onClick={() => toggleDropdown(item.id)}
+                          onClick={() => toggleMobileDropdown(item.id)}
                           className="text-gray-300 hover:text-orange-400 px-2"
                         >
                           <ChevronDown
-                            className={`h-4 w-4 transition-transform ${activeDropdown === item.id ? "rotate-180" : ""}`}
+                            className={`h-4 w-4 transition-transform ${
+                              mobileActiveDropdown === item.id ? "rotate-180" : ""
+                            }`}
                           />
                         </Button>
                       )}
                     </div>
 
                     {/* Mobile Dropdown */}
-                    {item.hasDropdown && activeDropdown === item.id && (
-                      <div className="ml-4 mt-2 space-y-1">
+                    {item.hasDropdown && mobileActiveDropdown === item.id && (
+                      <div className="ml-4 mt-2 space-y-1 max-h-48 overflow-y-auto">
                         {item.dropdownItems?.map((dropdownItem, index) => (
                           <a
                             key={index}
@@ -178,10 +191,7 @@ export default function Header({ isHeroSection = false, activeSection = "home" }
                             target={dropdownItem.external ? "_blank" : "_self"}
                             rel={dropdownItem.external ? "noopener noreferrer" : ""}
                             className="block px-4 py-2 text-sm text-gray-400 hover:text-orange-400 transition-colors"
-                            onClick={() => {
-                              setActiveDropdown(null)
-                              setIsMenuOpen(false)
-                            }}
+                            onClick={closeMobileMenu}
                           >
                             {dropdownItem.name}
                           </a>
