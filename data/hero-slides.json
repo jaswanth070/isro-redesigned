@@ -6,7 +6,7 @@
       "subtitle": "भारतीय अंतरिक्ष अनुसंधान संगठन",
       "description": "",
       "backgroundImage": "",
-      "videoUrl": "videos/welcome.mp4",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/jaswanth070/isro-redesigned/public/videos/welcome.mp4",
       "hasReadMore": false
     },
     {
@@ -15,7 +15,7 @@
       "subtitle": "",
       "description": "Chandrayaan-3 is India's third lunar exploration mission and the second attempt to make a soft landing on the lunar surface after the Chandrayaan-2 mission.",
       "backgroundImage": "",
-      "videoUrl": "videos/moon.mp4",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/jaswanth070/isro-redesigned/public/videos/moon.mp4",
       "hasReadMore": true,
       "link": "https://www.isro.gov.in/Chandrayaan3.html"
     },
@@ -25,7 +25,7 @@
       "subtitle": "",
       "description": "Aditya-L1 is India's first solar mission to study the Sun's corona and solar wind in detail from the L1 Lagrange point.",
       "backgroundImage": "",
-      "videoUrl": "videos/sun.mp4",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/jaswanth070/isro-redesigned/public/videos/sun.mp4",
       "hasReadMore": true,
       "link": "https://www.isro.gov.in/Aditya_L1.html"
     },
@@ -35,7 +35,7 @@
       "subtitle": "",
       "description": "Mangalyaan, also known as the Mars Orbiter Mission (MOM), was India's first interplanetary mission, successfully reaching Mars orbit on September 24, 2014",
       "backgroundImage": "",
-      "videoUrl": "videos/mars.mp4",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/jaswanth070/isro-redesigned/public/videos/mars.mp4",
       "hasReadMore": true,
       "link": "https://www.isro.gov.in/MarsOrbiterMissionSpacecraft.html"
     },
@@ -45,7 +45,7 @@
       "subtitle": "",
       "description": "Navigation with Indian Constellation (NavIC) is India's regional satellite navigation system providing accurate positioning services.",
       "backgroundImage": "",
-      "videoUrl": "videos/navic.mp4",
+      "videoUrl": "https://cdn.jsdelivr.net/gh/jaswanth070/isro-redesigned/public/videos/navic.mp4",
       "hasReadMore": true,
       "link": "https://www.isro.gov.in/SatelliteNavigationServices.html"
     }
