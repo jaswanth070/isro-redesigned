@@ -85,7 +85,7 @@ export default function HeroCarousel() {
                   </div>
                 ) : (
                   <div>
-                    <p className="caption text-orange-400 mb-4">PROJECT</p>
+                    <p className="caption text-orange-400 mb-4">MISSION</p>
                     <h1 className="heading-xl mb-6">{slide.title}</h1>
                     <p className="body-lg mb-8 text-gray-200 max-w-xl leading-relaxed">{slide.description}</p>
                     {slide.hasReadMore && (
